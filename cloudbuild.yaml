@@ -18,5 +18,6 @@ steps:
         - '${_REGION}'
         - '--platform'
         - '${_MODE}'
+        - '--allow-unauthenticated'
 images:
   - 'gcr.io/$PROJECT_ID/${_SERVICENAME}:$COMMIT_SHA'
