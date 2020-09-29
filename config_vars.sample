@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+PROJECT_ID='<your-project-id>'
+ZONE='europe-west1-b'
+REGION='europe-west1'
+CLUSTER_NAME='<your-cluster-name>'
+GKE_VERSION='1.17.9-gke.1504'
+NAMESPACE='cloudrun'
+SERVICENAME='hellocloudrun'
